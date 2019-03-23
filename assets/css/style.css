@@ -197,3 +197,66 @@ a {
         text-decoration: none;
 }
 
+@media only screen and (max-width: 980px) {
+       nav {
+               margin-right: 15px;
+       }
+       .container {
+               max-width: 100%;
+       }
+       .main-section {
+               float: none;
+               margin: 0 auto 40px;
+       }
+
+}
+@media only screen and (max-width: 768px) {
+.main-section {
+       max-width: 80%;
+}
+.work:nth-child(even) {
+       margin-right: auto;
+}
+.work {
+       float: none;
+       margin: 20px auto 25px;
+}
+
+}
+@media only screen and (max-width: 640px) {
+#logo {
+       margin: 0 auto;
+       float: none;
+       display: block;
+}
+nav {
+       float: none;
+       margin: 0 auto;
+       text-align: center;
+}
+nav a:first-child {
+       border-left: 0 none;
+       padding-left: 0;
+       margin-left: 0;
+}
+.work img {
+       height: auto;
+}
+.work {
+       width: 100%;
+}
+.work h3 {
+       font-size: 16px;
+       padding: 10px;
+       line-height: 16px;
+}
+p {
+       font-size: 15px;
+}
+#masthead {
+       position: static;
+}
+#main-container {
+       padding-top: 0;
+}
+}
